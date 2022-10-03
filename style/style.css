@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    color: #1E3533;
+}
+#principal{
+    height: 99vh;
+    background-color: #fffffa;
+}
+#arriba{
+    height: 9%;
+
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+}
+#nombre{
+    width: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+#botones{
+    width: 48%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botones button{
+    padding: .4rem;
+
+    border: none;
+    background: none;
+    font-size: 8.5px;
+    letter-spacing: .9px;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+#bot1, #bot2, #bot3{
+    margin: .3rem;
+    display: block;
+}
+#botones button:hover, #box_txt button:hover{
+    background-color: #9CADCE;
+    color: white;
+    text-decoration-line: none;
+    transition-duration: .4s;
+}
+
+#comprar{
+    width: 26%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6.8%;
+}
+#comprar button{
+    padding: .4rem;
+    border: none;
+    letter-spacing: .9px;
+    font-size: 10px;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    background-color: #9CADCE;
+    color: white;
+}
+#comprar button:hover{
+    background-color: #DBA11C;
+    transition-duration: .4s;
+
+}
+#para_foto{
+    height: 91.5%;
+}
+#centro{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#middle{
+    position: absolute;
+    z-index: 1; 
+}
+#box_txt{
+    
+    background-color: white;
+    height: 12rem;
+    width: 16rem;
+    box-shadow: 1.5px 1.5px 1.5px grey;
+    border-radius: 1px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box_txt h3{
+    font-family: 'Open Sans', sans-serif;
+    width: 91%;
+    line-height: 1.5em;
+    letter-spacing: .1px;
+
+}
+#box_txt h4{
+
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50%;
+
+}
+#botones_abajo button{
+
+    padding: .4rem;
+    margin: .3rem;
+    border: none;
+    font-size: 9.5px;
+    letter-spacing: .9px;
+    background: none;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    text-decoration-line: underline;
+
+}
+#botones_abajo{
+    height: 17%;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rigth{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#rigth img, #left img{
+    height: 100%;
+    width: 72%;
+    box-shadow: 1px 1px 1px 1px grey;
+
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+#rigth img:hover, #left img:hover{
+    filter: grayscale(70%);
+}
+@media only screen and (min-width: 320px){
+    
+}
